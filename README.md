@@ -27,7 +27,7 @@ A variety of NHL data is available covering individual player and team stats, le
 I undertook descriptive analysis of game features to better understand the data and to identify any trends which would be indicative of a teams success within a single game or over a period of successive games.
 Seasons
 
-<iframe src="https://ciarancarroll.clicdata.com/v/71rHcTZr8rTZ"></iframe>
+<iframe src="https://ciarancarroll.clicdata.com/v/71rHcTZr8rTZ"width="600" height="400"></iframe>
 
 During the loading process of game data from the API a number of 404 errors were encountered indicating the specified game data was not available. This was especially prevalent for games in the 2012-13 season.
 The 2018-19 season at the time of analysis is underway, results are retrieved regularly and appended to the historical game dataset.
