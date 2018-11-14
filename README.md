@@ -43,7 +43,7 @@ Excluding current 2018-19 and 2012-13 seasons the distribution of game win perce
 ### Home Team Advantage?
 Is there a significant difference for teams playing at their home arena compared to playing away?
 
-<p align='center'><iframe src="https://ciarancarroll.clicdata.com/v/cP22UwI6i0QR" width="400" height="400" frameBorder="0"></iframe></p>
+<p align='center'><iframe src="https://ciarancarroll.clicdata.com/v/cP22UwI6i0QR" width="600" height="400" frameBorder="0"></iframe></p>
 
 There appears to be a very slight disadvantage to home teams, a home team in general would be expected to 51% of their away games and conversely 49% of their home games
 
