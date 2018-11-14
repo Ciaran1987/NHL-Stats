@@ -4,7 +4,7 @@
 Through data analysis and predictive modelling I attempt to predict NHL regular season game outcomes by utilizing opposing teams prior performance. Through the analysis I will investigate established key performance indicators and their use as predictors of team success?
 
 ## Data
-NHL data is available via REST API from https://statsapi.web.nhl.com a gitlab repository of all available endpoints and variables contained therein is available here: https://gitlab.com/dword4/nhlapi
+NHL data is available via REST API from <https://statsapi.web.nhl.com> a gitlab repository of all available endpoints and variables contained therein is available here: <https://gitlab.com/dword4/nhlapi>
 
 All available regular season game data points from the beginning of the 2010 season up to the early 2018 season were retrieved via the API.
 
@@ -101,7 +101,3 @@ What you would do differently if you did this project again?
 If you were going to continue this work, what next steps you would take with this project?
 How you would explain what you did to a data scientist?
 How you would explain what you did to a non-data scientist
-
-
-
-NHL API info available here: https://gitlab.com/dword4/nhlapi
