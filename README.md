@@ -49,11 +49,11 @@ There appears to be a very slight disadvantage to home teams, a home team in gen
 
 Certain teams will perform better at home than others, illustrated below is the variance of home and away Win % from overall performance.
 
-<p align='center'><iframe src="https://ciarancarroll.clicdata.com/v/hXQWCBEpVPMo" width="400" height="400" frameBorder="0"></iframe></p>
+<p align='center'><iframe src="https://ciarancarroll.clicdata.com/v/hXQWCBEpVPMo" width="600" height="400" frameBorder="0"></iframe></p>
 
 Lets take a look at goals scored for home and away teams
 
-<p align='center'><iframe src="https://ciarancarroll.clicdata.com/v/L089afYFySCv" width="400" height="400" frameBorder="0"></iframe></p>
+<p align='center'><iframe src="https://ciarancarroll.clicdata.com/v/L089afYFySCv" width="600" height="400" frameBorder="0"></iframe></p>
 
 It appears that home teams score a higher number of goals per game more frequently than away teams, this would indicate a wider margin for home team wins than losses
 
@@ -69,7 +69,7 @@ Lets look at shots (on goal, missed and blocked), a popular metric is the Corsi 
 
 For example Team A have 66 shots on goal Team B have 55: Corsi Team A = 66-55 = 11 Corsi Team A% = 66/(66+55) = 55% Corsi Team B = 55-66 = -11 Corsi Team B% = 55/(66+55) = 45%
 
-<p align='center'><iframe src="https://ciarancarroll.clicdata.com/v/r1QzPCFSTvON" width="400" height="400" frameBorder="0"></iframe></p>
+<p align='center'><iframe src="https://ciarancarroll.clicdata.com/v/r1QzPCFSTvON" width="600" height="400" frameBorder="0"></iframe></p>
 
 If we compare teams Win% and Corsi% we can see a correlating trend between the two, by calculating the correlation coefficient we see a moderate correlation between the two:
 
