@@ -59,7 +59,12 @@ It appears that home teams score a higher number of goals per game more frequent
 
 By conducting a paired t-test on the distribution of home and away goals, we can establish if there is a statistically significant difference between the two populations
 
+```python
+#conduct a dependent t-test on home and away goals
+from scipy import stats
+stats.ttest_rel(goals['Home'], goals['Away'])
 Ttest_relResult(statistic=11.135112011475373, pvalue=1.2859551452133143e-28)
+```
 
 The pvalue of the t-test being less than 0.05 we can reject the null hypothesis that there is no difference home and away teams in respect of goals scored
 
@@ -73,11 +78,13 @@ For example Team A have 66 shots on goal Team B have 55: Corsi Team A = 66-55 = 
 
 If we compare teams Win% and Corsi% we can see a correlating trend between the two, by calculating the correlation coefficient we see a moderate correlation between the two:
 
+```python
 from scipy.stats.stats import pearsonr
 pearsonr(corsi_grouped['Corsi %'],corsi_grouped['Win %'])
 
 (0.6184222739960428, 0.00020899389348708302)
 (Coefficient, P value for testing of non-correlation)
+```
 
 ### 
 
