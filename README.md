@@ -11,17 +11,17 @@ All available regular season game data points from the beginning of the 2010 sea
 I utilized pythons pandas, json and requests libraries to extract and transform game data from the NHL API for analysis and modelling
 
 A variety of NHL data is available covering individual player and team stats, league standings, game outcomes and live feed information highlighting key events during the progression of individual games. For simplicities sake in this project I restricted the scope of analysis to focus solely on team performance per game, variables include:
-•	Goals
-•	PIM (Penalty minutes) 
-•	Shots
-•	Power Play % (Goals scored per Power Play Opportunity)
-•	Power Play Goals
-•	Power Play Opportunities 
-•	Face Off Win Percentage   
-•	Blocked (Shots from the opposing team blocked by a player reaching the goalie)
-•	Takeaways (Intended turnover of possession from the opposing team)
-•	Giveaways (Unintended turnover of possession to the opposing team)
-•	Hits (Physical contact between opposing players resulting in the loss of possession by the opposite team member)
+*	Goals
+*	PIM (Penalty minutes) 
+*	Shots
+*	Power Play % (Goals scored per Power Play Opportunity)
+*	Power Play Goals
+*	Power Play Opportunities 
+*	Face Off Win Percentage   
+*	Blocked (Shots from the opposing team blocked by a player reaching the goalie)
+*	Takeaways (Intended turnover of possession from the opposing team)
+*	Giveaways (Unintended turnover of possession to the opposing team)
+*	Hits (Physical contact between opposing players resulting in the loss of possession by the opposite team member)
 
 ## Exploratory Data Analysis
 I undertook descriptive analysis of game features to better understand the data and to identify any trends which would be indicative of a teams success within a single game or over a period of successive games.
