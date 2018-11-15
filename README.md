@@ -90,7 +90,75 @@ pearsonr(corsi_grouped['Corsi %'],corsi_grouped['Win %'])
 (Coefficient, P value for testing of non-correlation)
 ```
 
-### 
+## Elo Ranking
+
+Elo scores were originally devloped as a chess ranking system and have since been deployed in various competitive enviroments including videogames and sports.
+
+The concept behind this rating process in simplified terms is:
+* Each team begins with the same score
+* When a team wins they take a number of points from the opposing team
+* Over the course of a season (or more), consistantly successful teams would accumulate a higher Elo rating and underperforming teams a lower Elo rating
+* This rating can be used to calculate the probability of a win based on the variance of oppposing teams Elo scores
+
+In the chart below we see the progression of Elo ratings for various teams
+
+<p align='center'><iframe src="https://ciarancarroll.clicdata.com/v/m8QBQfdZnfVt" width="600" height="400" frameBorder="0"></iframe></p>
+
+Lets look at an example of Elo scores can be used to predict the outcome of a game:
+
+Team A have a score of 1700
+Team B have a score of 1450
+
+```python
+a_score = 1700
+b_score = 1450
+
+prob_a_win = 1/(1+10**((a_score - b_score)/400))
+
+prob_a_win = 0.808317673
+
+prob_b_win = 1 - prob_a_win
+
+prob_b_win = 0.191682327
+```
+
+A coefficient K is used to calculate the number of points to be deducted from the losing team, this is multiplied by the prior probability of a team winning, so in cases where a favourite wins a smaller number of points are deducted from the losing team.
+
+Lets imagine with the above scenario the favourite Team A won and coefficient K is set to 10:
+
+```python
+a_score = 1700
+b_score = 1450
+
+prob_a_win = 0.808317673
+
+elo_change = k*(1-prob_a_win)
+
+elo_change = 10*(1-0.808317673)
+
+elo_change = 1.916823275
+```
+
+Conversely if Team B (the underdog) won:
+
+```python
+a_score = 1700
+b_score = 1450
+
+prob_b_win = 0.191682327
+
+elo_change = k*(1-prob_b_win)
+
+elo_change = 10*(1-0.191682327)
+
+elo_change = 8.083176725
+```
+
+The value of K can be chosen by comparing the mean squared error on predictions for each value of K
+
+<p align='center'><iframe src="https://ciarancarroll.clicdata.com/v/xf8kVli42hi5" width="600" height="400" frameBorder="0"></iframe></p>
+
+
 
 How did you model the data?
 Why you chose to model it that way?
