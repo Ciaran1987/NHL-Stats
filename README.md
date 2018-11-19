@@ -113,7 +113,7 @@ Team B have a score of 1450
 a_score = 1700
 b_score = 1450
 
-prob_a_win = 1/(1+10**((a_score - b_score)/400))
+prob_a_win = 1/(1+10**((b_score - a_score)/400))
 
 prob_a_win = 0.808317673
 
@@ -158,18 +158,10 @@ The value of K can be chosen by comparing the mean squared error on predictions 
 
 <p align='center'><iframe src="https://ciarancarroll.clicdata.com/v/xf8kVli42hi5" width="600" height="400" frameBorder="0"></iframe></p>
 
+An optimum K coefficient appears around a value of 6 or 7, we will apply this for prediciting upcoming games.
 
+In the dashboard below I have applied the Elo model to upcoming games to provide a predicitve probability of wins and losses, I have alose included some of the KPI's common to NHL statistical analysis
 
-How did you model the data?
-Why you chose to model it that way?
-What code did you write / use?
-How did you fit the model?
-How did you validated the model?
-How you know the results make sense?
-How did you visualized the results?
-How you would communicate the results to others?
-What did you learn?
-What you would do differently if you did this project again?
-If you were going to continue this work, what next steps you would take with this project?
-How you would explain what you did to a data scientist?
-How you would explain what you did to a non-data scientist
+<p align='center'><iframe src="https://ciarancarroll.clicdata.com/v/O9w3sL8fOWGD" width="760" height="1360" frameBorder="0"></iframe></p>
+
+Over the course of the analysed period the Elo rating system has provided the greatest accuracy, while other models (SVC, Naive Bayes and Logistic regression) were somewhat close in predictive accuracy when assesed against a training test split, this accuracy was not reflected in live deployment.
