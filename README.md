@@ -73,10 +73,10 @@ The pvalue of the t-test being less than 0.05 we can reject the null hypothesis 
 Lets look at shots (on goal, missed and blocked), a popular metric is the Corsi which compares shots for and against and can be represented as a integer or percentage
 
 For example Team A have 66 shots on goal Team B have 55: 
-Corsi Team A = 66-55 = 11 
-Corsi Team A% = 66/(66+55) = 55% 
-Corsi Team B = 55-66 = -11 
-Corsi Team B% = 55/(66+55) = 45%
+-Corsi Team A = 66-55 = 11 
+-Corsi Team A% = 66/(66+55) = 55% 
+-Corsi Team B = 55-66 = -11 
+-Corsi Team B% = 55/(66+55) = 45%
 
 <p align='center'><iframe src="https://ciarancarroll.clicdata.com/v/r1QzPCFSTvON" width="600" height="400" frameBorder="0"></iframe></p>
 
