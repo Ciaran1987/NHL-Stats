@@ -154,7 +154,7 @@ elo_change = 10*(1-0.191682327)
 elo_change = 8.083176725
 ```
 
-The value of K can be chosen by comparing the mean squared error on predictions for each value of K
+The value of K can be chosen by comparing the RMSE on predictions for each value of K
 
 <p align='center'><iframe src="https://ciarancarroll.clicdata.com/v/xf8kVli42hi5" width="600" height="400" frameBorder="0"></iframe></p>
 
