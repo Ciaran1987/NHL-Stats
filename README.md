@@ -166,6 +166,6 @@ An optimum K coefficient appears around a value of 6 or 7, we will apply this fo
 
 In the dashboard below I have applied the Elo model to upcoming games to provide a predicitve probability of wins and losses, I have alose included some of the KPI's common to NHL statistical analysis
 
-<p align='center'><iframe src="https://ciarancarroll.clicdata.com/v/O9w3sL8fOWGD" width="760" height="1360" frameBorder="0"></iframe></p>
+<p align='center'><iframe src="https://ciarancarroll.clicdata.com/v/O9w3sL8fOWGD" width="790" height="1360" frameBorder="0"></iframe></p>
 
 Over the course of the analysed period the Elo rating system has provided the greatest accuracy, while other models (SVC, Naive Bayes and Logistic regression) were somewhat close in predictive accuracy when assesed against a training test split, this accuracy was not reflected in live deployment.
