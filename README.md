@@ -93,6 +93,9 @@ pearsonr(corsi_grouped['Corsi %'],corsi_grouped['Win %'])
 (0.6184222739960428, 0.00020899389348708302)
 (Coefficient, P value for testing of non-correlation)
 ```
+Below is a regression plot of Corsi% vs Win%
+<p align='center'><iframe src="https://ciarancarroll.clicdata.com/v/z0gDH4I9Lnhm"></iframe></p>
+
 
 ## Elo Ranking
 
